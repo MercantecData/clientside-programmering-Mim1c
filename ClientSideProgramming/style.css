@@ -2,15 +2,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("https://wallpapercave.com/wp/wp5393108.jpg");
+    /*background-image: url("https://wallpapercave.com/wp/wp5393108.jpg");*/
+    background-image: url("https://images.pond5.com/4k-wind-green-grass-fields-footage-089814588_prevstill.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+    font-family: Calibri;
 }
 
 @keyframes fade {
     0% {
-        background-color: #353535;
+        background-color: #0c0c10;
     }
     100% {
         background-color: blue;
@@ -20,12 +22,15 @@ body {
 p {
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 h1 {
     text-align: center;
     color: white;
 }
+
+
 
 
 .content {
@@ -49,12 +54,28 @@ h1 {
 .foot {
     width: 100%;
     height: 100px;
-    background-color: #353535;
+    background-color: #0c0c10;
+}
+
+.footerInfo {
+    text-align: center;
+}
+
+.footLink {
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    text-align: center;
+}
+
+.headLink {
+    
+    color: white;
+    font-weight: bold;
 }
 
 img {
     width: 100%;
-    border-radius: 50%;
 }
 
 .wrapper {
@@ -67,7 +88,11 @@ img {
     width: 200px;
     height: 200px;
     transform: translate(-50%, 0);
-    
+    border-radius: 50%;
+}
+
+.navList {
+    position: fixed;
 }
 
 ul {
@@ -75,15 +100,15 @@ ul {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: #353535;
+    background-color: #0c0c10;
     width: 100%;
-    position: fixed;
 }
 
+
+
 li {
-    float: left;
     padding: 1% 3%;
-    color: white;
+    float: left;
 }
 
 
