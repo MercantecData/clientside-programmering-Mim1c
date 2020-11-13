@@ -1,17 +1,12 @@
-function Rotate() {
-    var pic = document.getElementById("Me");
-    var deg = document.getElementById("Me").style.transform;
-    deg = deg + 180;
-    pic.style.transform = "rotate("+deg+"deg)";
-}
-
-function makeVisible(i) {
-   
-    console.log("Hello")
+function makeVisible(i, j) {
+   console.log("Hello")
     if(i.style.display === "none" || i.style.display === ""){
+        j.style.display = "none"
         i.style.display = "contents"
+        
     } 
     else if (i.style.display === "contents") {
+        j.style.display = "inline"
         i.style.display = "none"
     }
 }

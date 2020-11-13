@@ -15,7 +15,6 @@
                 <li class="headLink"><a href="index.html">Home</a></li>
                 <li class="headLink"><a href="projects.html">My Projects</a></li>
                 <li class="headLink"><a href="contact.html">Contact</a></li>
-                <li class="headLink"><a href="sandbox.html">Sandbox</a></li>
             </ul>
         </div>
 
@@ -26,21 +25,26 @@
                 </div>
 
                 <ul class="projectList">
-                    <li onclick="makeVisible(SMtext)" class="projects">Student Manager</li>
-                    <img class="students" src="https://static.wixstatic.com/media/006df9_392ab5b551bc446193eaa44aafe0cca5.png">
-                    <p id="SMtext">This is my project for student manager and it is so fucking insane hack hack hack
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi fuga mollitia nobis voluptatem accusamus enim 
-                        amet impedit sunt quibusdam veniam omnis ipsa consequuntur iure, sapiente ut asperiores quaerat quam officia.
-                        amet impedit sunt quibusdam veniam omnis ipsa consequuntur iure, sapiente ut asperiores quaerat quam officia.
-                        amet impedit sunt quibusdam veniam omnis ipsa consequuntur iure, sapiente ut asperiores quaerat quam officia.
-                    </p>
-                    <li onclick="makeVisible(libText)" class="projects">Library Console Application</li>
-                    <img class="library" src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/bookshelf-512.png">
-                    <p id="libText">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium temporibus impedit voluptates 
-                        cupiditate velit recusanda hahahahahah xexexexe xaxaxaxaxa jajajajaja kekekekekeke 
-                        e dicta ipsum magni saepe modi! Ut, magnam culpa eum maiores consectetur illo consequatur autem architecto?
-                    </p>
+                    <li onclick="makeVisible(SMtext, students)" class="projects">Student Manager</li>
+                    <div class="studentWrap">
+                        <img id="students" onclick="makeVisible(SMtext, students)" src="https://static.wixstatic.com/media/006df9_392ab5b551bc446193eaa44aafe0cca5.png">
+                        <p id="SMtext">This is my project for student manager and it is so fucking insane hack hack hack
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi fuga mollitia nobis voluptatem accusamus enim 
+                            amet impedit sunt quibusdam veniam omnis ipsa consequuntur iure, sapiente ut asperiores quaerat quam officia.
+                            amet impedit sunt quibusdam veniam omnis ipsa consequuntur iure, sapiente ut asperiores quaerat quam officia.
+                            amet impedit sunt quibusdam veniam omnis ipsa consequuntur iure, sapiente ut asperiores quaerat quam officia.
+                        </p>
+                    </div>
+
+                    <div class="libWrap">
+                        <li onclick="makeVisible(libText, library)" class="projects">Library Console Application</li>
+                        <img id="library" onclick="makeVisible(libText, library)" src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/bookshelf-512.png">
+                        <p id="libText">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium temporibus impedit voluptates 
+                            cupiditate velit recusanda hahahahahah xexexexe xaxaxaxaxa jajajajaja kekekekekeke 
+                            e dicta ipsum magni saepe modi! Ut, magnam culpa eum maiores consectetur illo consequatur autem architecto?
+                        </p>
+                    </div>
                 </ul>
             </div>
         </div>

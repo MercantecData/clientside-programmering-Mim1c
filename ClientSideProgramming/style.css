@@ -10,6 +10,7 @@ body {
     font-family: Calibri;
 }
 
+
 @keyframes fade {
     0% {
         background-color: #0c0c10;
@@ -17,6 +18,23 @@ body {
     100% {
         background-color: blue;
     }
+}
+
+th {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+td {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
 }
 
 
@@ -56,7 +74,7 @@ h1 {
     width: 100%;
     height: auto;
     background-color: #0c0c10;
-    
+    position: relative;
 }
 
 .footerInfo {
@@ -80,9 +98,6 @@ h1 {
 
 .footLink:hover {
     padding: 1% 3%;
-    background-color: blue;
-    animation-name: fade;
-    animation-duration: 1s;
 }
 
 .headLink {
@@ -126,15 +141,20 @@ display: block;
     user-select: none;
 }
 
-.students {
+#students {
     width: 30%;
     height: 30%;
+    display: inline;
+    cursor: pointer;
 }
 
-.library {
+#library {
     width: 30%;
     height: 30%;
+    display: inline;
+    cursor: pointer;
 }
+
 
 
 #SMtext {
